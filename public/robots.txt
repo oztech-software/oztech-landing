@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://oztech.com.br/sitemap.xml

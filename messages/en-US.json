@@ -1,0 +1,155 @@
+{
+  "Header": {
+    "brand": "Oztech",
+    "navResearch": "Oztech Labs (R&D)",
+    "navProducts": "What we deliver",
+    "navManifesto": "How we work",
+    "navContact": "WhatsApp"
+  },
+  "Hero": {
+    "kicker": "OZTECH · SOFTWARE & AUTOMATION",
+    "title": "Custom software for real operations.",
+    "subtitle": "From landing pages to full systems: auth, dashboards, integrations and automation — delivered iteratively with maintenance.",
+    "trust": "Web · Mobile · Integrations · Automation · Observability",
+    "ctaPrimary": "Chat on WhatsApp",
+    "ctaSecondary": "See what we deliver",
+    "whatsMessage": ""
+  },
+  "Footer": {
+    "copyright": "© {year} Oztech.",
+    "tagline": "Products and custom solutions built with clarity, security and performance."
+  },
+  "Products": {
+    "kicker": "Solutions",
+    "title": "What Oztech delivers",
+    "subtitle": "Own products and custom builds. Demos may use fictional data when needed. Some projects remain confidential (NDA).",
+    "badges": {
+      "product": "Product",
+      "demo": "Demo",
+      "nda": "Confidential (NDA)"
+    },
+    "card": {
+      "open": "View details",
+      "close": "Close",
+      "hint": "Click to see screens and details."
+    },
+    "showcaseCta": "Request a quote",
+    "showcaseSecondaryCta": "Back to cards",
+    "garageSEC": {
+      "name": "GarageSEC",
+      "description": "Monitoring and alerts for garage/parking operations: events, incidents and clear visibility into what’s happening.",
+      "tags": "Monitoring · Alerts · Operations",
+      "showcase": {
+        "title": "Monitoring and alerts",
+        "subtitle": "Camera panel with insights and operational alerts to support decisions and reduce risk.",
+        "bullets": {
+          "0": "Monitoring view with per-camera status and context",
+          "1": "Insights and events for audit/history",
+          "2": "Operational alerts with automatic updates"
+        },
+        "disclaimer": "Demonstration screen. In real environments, streams and events depend on configuration and infrastructure.",
+        "tabs": {
+          "monitor": "Monitoring"
+        },
+        "alts": {
+          "monitor": "GarageSEC monitoring screen with insights and alerts"
+        }
+      }
+    },
+    "reluvi": {
+      "name": "Reluvi (Mobile)",
+      "description": "A mobile-first community experience: moments feed and profile — with a social foundation designed to evolve modularly.",
+      "tags": "Community · Gamification · Mobile",
+      "showcase": {
+        "title": "Mobile social: feed and profile",
+        "subtitle": "UI focused on discovery, engagement and identity — ready for communities, rooms and messaging.",
+        "bullets": {
+          "0": "Moments feed with content and quick actions",
+          "1": "User profile with identity and progression",
+          "2": "Foundation for communities (rooms/tribes) and messaging"
+        },
+        "disclaimer": "App screenshots from a demo environment, using generated seed data to preserve privacy.",
+        "tabs": {
+          "momentos": "Moments",
+          "eu": "Me"
+        },
+        "alts": {
+          "momentos": "Reluvi screen showing the Moments feed",
+          "eu": "Reluvi screen showing the user profile"
+        }
+      }
+    },
+    "toka": {
+      "name": "Veterinary ERP (real case · NDA)",
+      "description": "Scheduling, medical records, exams and finance — built for day-to-day clinic operations. Screens use fictional/anonymized data for demo.",
+      "tags": "Scheduling · Records · Exams",
+      "showcase": {
+        "title": "Veterinary ERP (demo)",
+        "subtitle": "From front desk to pet owners: clinic scheduling plus a client portal to track appointments and exams.",
+        "bullets": {
+          "0": "Calendar-style scheduling (front desk and vet)",
+          "1": "Client area (appointments, exams and history)",
+          "2": "Fictional data for demonstration (no client branding)"
+        },
+        "disclaimer": "Screens and data are used for demonstration only.",
+        "tabs": {
+          "recepcao": "Front desk — Schedule",
+          "tutor": "Client — Dashboard"
+        },
+        "alts": {
+          "recepcao": "Front desk scheduling screen",
+          "tutor": "Client dashboard screen"
+        }
+      }
+    },
+    "capibara": {
+      "name": "CapibaraLinks",
+      "description": "Link-in-bio pages with simple analytics and tools to connect your funnel (Instagram, WhatsApp, etc.).",
+      "tags": "Link-in-bio · Analytics · Automation",
+      "showcase": {
+        "title": "CapibaraLinks (demo)",
+        "subtitle": "A polished link page with a simple creation flow — plus metrics to track clicks and visits.",
+        "bullets": {
+          "0": "Conversion-ready hero and landing structure",
+          "1": "Plans/pricing and value proposition",
+          "2": "Link creation with preview and copy action"
+        },
+        "disclaimer": "Product screenshots from a demo environment.",
+        "tabs": {
+          "hero": "Hero",
+          "preco": "Plans",
+          "links": "Feature: Links"
+        },
+        "alts": {
+          "hero": "CapibaraLinks hero section",
+          "preco": "CapibaraLinks pricing section",
+          "links": "CapibaraLinks link creation screen"
+        }
+      }
+    }
+  },
+  "Manifesto": {
+    "kicker": "How we work",
+    "title": "Predictable delivery, no drama.",
+    "intro": "A simple process focused on speed, clarity and traceability — so you always know what’s being built and what comes next.",
+    "ethics": {
+      "title": "1. Diagnose & propose",
+      "description": "We map your goal, constraints and priority flows. Then you get a clear scope, timeline and milestones."
+    },
+    "energy": {
+      "title": "2. Build iteratively",
+      "description": "We deliver in small steps: first a working core, then improvements and integrations — reducing risk and rework."
+    },
+    "auditability": {
+      "title": "3. Launch & maintain",
+      "description": "We ship, monitor and evolve. Maintenance keeps the system stable, secure and aligned with your operation."
+    }
+  },
+  "Contact": {
+    "kicker": "Contact",
+    "title": "Let’s talk on WhatsApp.",
+    "subtitle": "Send a short message with your goal and deadline. I’ll reply with a few questions and next steps.",
+    "whatsappLabel": "WhatsApp:",
+    "whatsappCta": "Open WhatsApp"
+  }
+}

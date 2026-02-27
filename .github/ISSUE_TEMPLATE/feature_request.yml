@@ -1,0 +1,33 @@
+name: Feature request
+description: Sugestão de melhoria ou nova feature
+title: "[FEATURE]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Objetivo
+      description: Que problema isso resolve? Qual valor traz?
+      placeholder: Ex.: Melhorar conversão no CTA, reduzir fricção, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposta
+      description: Como você imagina a solução?
+      placeholder: Descreva a ideia.
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Critérios de aceite
+      description: Como saber que ficou pronto?
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: false

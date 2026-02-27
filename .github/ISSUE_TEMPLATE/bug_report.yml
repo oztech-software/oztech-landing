@@ -1,0 +1,55 @@
+name: Bug report
+description: Reporte um bug para correção
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Descrição
+      description: O que aconteceu? Qual era o esperado?
+      placeholder: Explique o bug com clareza.
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Em qual página/rota ocorreu?
+      placeholder: https://oztech.com.br/...
+    validations:
+      required: false
+
+  - type: dropdown
+    id: locale
+    attributes:
+      label: Idioma
+      options:
+        - pt-BR
+        - en-US
+    validations:
+      required: false
+
+  - type: dropdown
+    id: device
+    attributes:
+      label: Ambiente
+      options:
+        - Mobile
+        - Desktop
+        - Ambos
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passos para reproduzir
+      description: Passo a passo para causar o bug.
+      placeholder: |
+        1) ...
+        2) ...
+        3) ...
+    validations:
+      required: true

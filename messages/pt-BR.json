@@ -1,0 +1,155 @@
+{
+  "Header": {
+    "brand": "Oztech",
+    "navResearch": "Oztech Labs (P&D)",
+    "navProducts": "O que entregamos",
+    "navManifesto": "Como trabalhamos",
+    "navContact": "WhatsApp"
+  },
+  "Hero": {
+    "kicker": "OZTECH · SOFTWARE & AUTOMAÇÃO",
+    "title": "Software sob medida para operações reais.",
+    "subtitle": "Da landing ao sistema completo: autenticação, dashboards, integrações e automações — com entrega incremental e manutenção.",
+    "trust": "Web · Mobile · Integrações · Automação · Observabilidade",
+    "ctaPrimary": "Falar no WhatsApp",
+    "ctaSecondary": "Ver o que entregamos",
+    "whatsMessage": ""
+  },
+  "Footer": {
+    "copyright": "© {year} Oztech.",
+    "tagline": "Produtos e soluções sob medida com clareza, segurança e performance."
+  },
+  "Products": {
+    "kicker": "Soluções",
+    "title": "O que a Oztech entrega",
+    "subtitle": "Produtos próprios e soluções sob medida. Demos com dados fictícios quando necessário. Alguns projetos sob confidencialidade (NDA).",
+    "badges": {
+      "product": "Produto",
+      "demo": "Demo",
+      "nda": "Confidencial (NDA)"
+    },
+    "card": {
+      "open": "Ver detalhes",
+      "close": "Fechar",
+      "hint": "Clique para ver telas e detalhes."
+    },
+    "showcaseCta": "Quero um orçamento",
+    "showcaseSecondaryCta": "Voltar aos cards",
+    "garageSEC": {
+      "name": "GarageSEC",
+      "description": "Monitoramento e alertas para controle operacional em garagens/estacionamentos: eventos, ocorrências e visão do que está acontecendo.",
+      "tags": "Monitoramento · Alertas · Operação",
+      "showcase": {
+        "title": "Monitoramento e alertas",
+        "subtitle": "Painel de câmera com insights e alertas operacionais para apoiar decisões e reduzir risco.",
+        "bullets": {
+          "0": "Tela de monitoramento com status e contexto por câmera",
+          "1": "Insights e eventos para auditoria/histórico",
+          "2": "Alertas operacionais com atualização automática"
+        },
+        "disclaimer": "Tela demonstrativa. Em ambiente real, o stream e eventos variam conforme configuração e infraestrutura.",
+        "tabs": {
+          "monitor": "Monitoramento"
+        },
+        "alts": {
+          "monitor": "Tela de monitoramento do GarageSEC com insights e alertas"
+        }
+      }
+    },
+    "reluvi": {
+      "name": "Reluvi (Mobile)",
+      "description": "Experiência mobile-first para comunidades: feed de momentos e perfil — com estrutura social pronta para evolução por módulos.",
+      "tags": "Comunidade · Gamificação · Mobile",
+      "showcase": {
+        "title": "Mobile social: feed e perfil",
+        "subtitle": "Interface focada em descoberta, engajamento e identidade — pronta para comunidades, salas e mensagens.",
+        "bullets": {
+          "0": "Feed de momentos com conteúdo e ações rápidas",
+          "1": "Perfil do usuário com identidade e evolução",
+          "2": "Base pronta para comunidades (salas/tribos) e mensagens"
+        },
+        "disclaimer": "Imagens do app em ambiente de demonstração, com dados gerados (seed) para preservar privacidade.",
+        "tabs": {
+          "momentos": "Momentos",
+          "eu": "Eu"
+        },
+        "alts": {
+          "momentos": "Tela do Reluvi mostrando o feed de Momentos",
+          "eu": "Tela do Reluvi mostrando o perfil do usuário"
+        }
+      }
+    },
+    "toka": {
+      "name": "ERP Veterinário (case real · NDA)",
+      "description": "Agenda, prontuário, exames e financeiro — feito para a rotina da clínica. Telas com dados fictícios/anônimos para demonstração.",
+      "tags": "Agenda · Prontuário · Exames",
+      "showcase": {
+        "title": "ERP Veterinário (demo)",
+        "subtitle": "Do balcão ao tutor: agenda da clínica e portal do cliente para acompanhar consultas e exames.",
+        "bullets": {
+          "0": "Agenda estilo calendário (recepção e veterinário)",
+          "1": "Área do tutor (consultas, exames e histórico)",
+          "2": "Dados fictícios para demonstração (sem marca de cliente)"
+        },
+        "disclaimer": "Telas e dados usados apenas para demonstração.",
+        "tabs": {
+          "recepcao": "Recepção — Agenda",
+          "tutor": "Tutor — Dashboard"
+        },
+        "alts": {
+          "recepcao": "Tela de agenda da recepção",
+          "tutor": "Tela de dashboard do tutor"
+        }
+      }
+    },
+    "capibara": {
+      "name": "CapibaraLinks",
+      "description": "Link na bio com páginas prontas, métricas simples e recursos para conectar com seu funil (Instagram, WhatsApp, etc.).",
+      "tags": "Link na bio · Métricas · Automação",
+      "showcase": {
+        "title": "CapibaraLinks (demo)",
+        "subtitle": "Página de links com visual caprichado e fluxo simples de criação — com métricas para acompanhar cliques e visitas.",
+        "bullets": {
+          "0": "Hero e estrutura de landing para conversão",
+          "1": "Planos/precificação e proposta de valor",
+          "2": "Criação de links com preview e ação de copiar"
+        },
+        "disclaimer": "Imagens do produto em ambiente de demonstração.",
+        "tabs": {
+          "hero": "Hero",
+          "preco": "Planos",
+          "links": "Feature: Links"
+        },
+        "alts": {
+          "hero": "Hero do CapibaraLinks",
+          "preco": "Seção de planos do CapibaraLinks",
+          "links": "Tela de criação de links do CapibaraLinks"
+        }
+      }
+    }
+  },
+  "Manifesto": {
+    "kicker": "Como trabalhamos",
+    "title": "Entrega previsível, sem drama.",
+    "intro": "Um processo simples focado em velocidade, clareza e rastreabilidade — pra você sempre saber o que está sendo feito e qual é o próximo passo.",
+    "ethics": {
+      "title": "1. Diagnóstico & proposta",
+      "description": "Entendemos objetivo, restrições e fluxos prioritários. Você recebe escopo, estimativa e marcos de entrega bem claros."
+    },
+    "energy": {
+      "title": "2. Construção incremental",
+      "description": "Entregamos em etapas: primeiro um núcleo funcionando, depois melhorias e integrações — reduzindo risco e retrabalho."
+    },
+    "auditability": {
+      "title": "3. Publicação & manutenção",
+      "description": "Publicamos, monitoramos e evoluímos. A manutenção mantém o sistema estável, seguro e alinhado com sua operação."
+    }
+  },
+  "Contact": {
+    "kicker": "Contato",
+    "title": "Vamos conversar no WhatsApp.",
+    "subtitle": "Me manda uma mensagem curta com seu objetivo e prazo. Eu respondo com algumas perguntas e os próximos passos.",
+    "whatsappLabel": "WhatsApp:",
+    "whatsappCta": "Abrir WhatsApp"
+  }
+}
