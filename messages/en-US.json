@@ -13,7 +13,7 @@
     "trust": "Web · Mobile · Integrations · Automation · Observability",
     "ctaPrimary": "Chat on WhatsApp",
     "ctaSecondary": "See what we deliver",
-    "whatsMessage": ""
+    "whatsMessage": "Hi! I came from the Oztech website and would like to discuss a project, system maintenance, a product upgrade, or AI automation."
   },
   "Footer": {
     "copyright": "© {year} Oztech.",
@@ -22,7 +22,7 @@
   "Products": {
     "kicker": "Solutions",
     "title": "What Oztech delivers",
-    "subtitle": "Own products and custom builds. Demos may use fictional data when needed. Some projects remain confidential (NDA).",
+    "subtitle": "Examples of products and interfaces already delivered — useful for new products, upgrades to existing systems, automation, and AI initiatives.",
     "badges": {
       "product": "Product",
       "demo": "Demo",
@@ -31,23 +31,28 @@
     "card": {
       "open": "View details",
       "close": "Close",
-      "hint": "Click to see screens and details."
+      "preview": "Real interface preview"
+    },
+    "labels": {
+      "solve": "Solves",
+      "value": "Why it helps"
     },
     "showcaseCta": "Request a quote",
-    "showcaseSecondaryCta": "Back to cards",
+    "showcaseSecondaryCta": "Close",
     "garageSEC": {
       "name": "GarageSEC",
-      "description": "Monitoring and alerts for garage/parking operations: events, incidents and clear visibility into what’s happening.",
       "tags": "Monitoring · Alerts · Operations",
+      "summary": {
+        "what": "An operational monitoring platform with alerts and fast visibility into what is happening.",
+        "solve": "Helps teams track events, reduce blind spots, and respond before issues become costly.",
+        "value": "Great for operations that need constant visibility, history, and fast reaction."
+      },
       "showcase": {
         "title": "Monitoring and alerts",
-        "subtitle": "Camera panel with insights and operational alerts to support decisions and reduce risk.",
-        "bullets": {
-          "0": "Monitoring view with per-camera status and context",
-          "1": "Insights and events for audit/history",
-          "2": "Operational alerts with automatic updates"
-        },
-        "disclaimer": "Demonstration screen. In real environments, streams and events depend on configuration and infrastructure.",
+        "what": "A panel built to follow cameras, events, and operational signals in one place.",
+        "solve": "Centralizes what is happening and speeds up response to incidents and deviations.",
+        "value": "Combines visibility, context, and history without requiring technical reading.",
+        "note": "Demonstration screen. In real environments, streams and events vary by infrastructure and rules.",
         "tabs": {
           "monitor": "Monitoring"
         },
@@ -56,42 +61,20 @@
         }
       }
     },
-    "reluvi": {
-      "name": "Reluvi (Mobile)",
-      "description": "A mobile-first community experience: moments feed and profile — with a social foundation designed to evolve modularly.",
-      "tags": "Community · Gamification · Mobile",
-      "showcase": {
-        "title": "Mobile social: feed and profile",
-        "subtitle": "UI focused on discovery, engagement and identity — ready for communities, rooms and messaging.",
-        "bullets": {
-          "0": "Moments feed with content and quick actions",
-          "1": "User profile with identity and progression",
-          "2": "Foundation for communities (rooms/tribes) and messaging"
-        },
-        "disclaimer": "App screenshots from a demo environment, using generated seed data to preserve privacy.",
-        "tabs": {
-          "momentos": "Moments",
-          "eu": "Me"
-        },
-        "alts": {
-          "momentos": "Reluvi screen showing the Moments feed",
-          "eu": "Reluvi screen showing the user profile"
-        }
-      }
-    },
     "toka": {
       "name": "Veterinary ERP (real case · NDA)",
-      "description": "Scheduling, medical records, exams and finance — built for day-to-day clinic operations. Screens use fictional/anonymized data for demo.",
       "tags": "Scheduling · Records · Exams",
+      "summary": {
+        "what": "A veterinary ERP for scheduling, medical records, exams, and pet owner access.",
+        "solve": "Organizes day-to-day clinic work and reduces friction between front desk, vet, and client.",
+        "value": "Great for daily operations, centralized history, and modular product evolution."
+      },
       "showcase": {
         "title": "Veterinary ERP (demo)",
-        "subtitle": "From front desk to pet owners: clinic scheduling plus a client portal to track appointments and exams.",
-        "bullets": {
-          "0": "Calendar-style scheduling (front desk and vet)",
-          "1": "Client area (appointments, exams and history)",
-          "2": "Fictional data for demonstration (no client branding)"
-        },
-        "disclaimer": "Screens and data are used for demonstration only.",
+        "what": "A flow that covers internal scheduling and the client-facing owner experience in one practical interface.",
+        "solve": "Improves clinic organization and makes appointments, exams, and follow-up easier to understand.",
+        "value": "Brings operations and service together in a product that can grow by module.",
+        "note": "Screens and data are used for demonstration only.",
         "tabs": {
           "recepcao": "Front desk — Schedule",
           "tutor": "Client — Dashboard"
@@ -104,17 +87,18 @@
     },
     "capibara": {
       "name": "CapibaraLinks",
-      "description": "Link-in-bio pages with simple analytics and tools to connect your funnel (Instagram, WhatsApp, etc.).",
       "tags": "Link-in-bio · Analytics · Automation",
+      "summary": {
+        "what": "A link-in-bio product with ready-made pages, simple management, and conversion-focused features.",
+        "solve": "Makes it easier to centralize links, campaigns, and contact points without relying on improvised pages.",
+        "value": "Great for teams that need to publish fast, measure the basics, and expand later."
+      },
       "showcase": {
         "title": "CapibaraLinks (demo)",
-        "subtitle": "A polished link page with a simple creation flow — plus metrics to track clicks and visits.",
-        "bullets": {
-          "0": "Conversion-ready hero and landing structure",
-          "1": "Plans/pricing and value proposition",
-          "2": "Link creation with preview and copy action"
-        },
-        "disclaimer": "Product screenshots from a demo environment.",
+        "what": "A product focused on public pages, link creation, and a simple commercial structure.",
+        "solve": "Helps organize digital presence, direct traffic, and track clicks without friction.",
+        "value": "Delivers fast publishing with a solid base for future features, automation, and analytics.",
+        "note": "Product screenshots from a demo environment.",
         "tabs": {
           "hero": "Hero",
           "preco": "Plans",
@@ -124,6 +108,30 @@
           "hero": "CapibaraLinks hero section",
           "preco": "CapibaraLinks pricing section",
           "links": "CapibaraLinks link creation screen"
+        }
+      }
+    },
+    "reluvi": {
+      "name": "Reluvi (Mobile)",
+      "tags": "Community · Gamification · Mobile",
+      "summary": {
+        "what": "A mobile social app for communities, user identity, and modular growth.",
+        "solve": "Creates a base for engagement, profiles, content, and future community or messaging layers.",
+        "value": "Great for products that should start lean while still leaving room to grow."
+      },
+      "showcase": {
+        "title": "Mobile social: feed and profile",
+        "what": "A mobile interface designed for discovery, profile building, and ongoing interaction.",
+        "solve": "Shapes social experiences with clear navigation and a reusable structure.",
+        "value": "Shows strength in mobile product design, flow design, and modular expansion.",
+        "note": "App screenshots from a demo environment using generated data to preserve privacy.",
+        "tabs": {
+          "momentos": "Moments",
+          "eu": "Me"
+        },
+        "alts": {
+          "momentos": "Reluvi screen showing the Moments feed",
+          "eu": "Reluvi screen showing the user profile"
         }
       }
     }
