@@ -61,11 +61,6 @@ export function ContactSection() {
             >
               {t('whatsappCta')}
             </a>
-
-            <div className='text-xs text-white/55 leading-relaxed'>
-              <div className='font-medium text-white/70'>{t('whatsappLabel')}</div>
-              <div>{WHATSAPP}</div>
-            </div>
           </motion.div>
         </motion.div>
       </div>
