@@ -13,7 +13,7 @@
     "trust": "Web · Mobile · Integrações · Automação · Observabilidade",
     "ctaPrimary": "Falar no WhatsApp",
     "ctaSecondary": "Ver o que entregamos",
-    "whatsMessage": ""
+    "whatsMessage": "Olá! Vim pelo site da Oztech e gostaria de conversar sobre um projeto, manutenção de sistema, upgrade de produto ou automação com IA."
   },
   "Footer": {
     "copyright": "© {year} Oztech.",
@@ -22,7 +22,7 @@
   "Products": {
     "kicker": "Soluções",
     "title": "O que a Oztech entrega",
-    "subtitle": "Produtos próprios e soluções sob medida. Demos com dados fictícios quando necessário. Alguns projetos sob confidencialidade (NDA).",
+    "subtitle": "Exemplos de produtos e interfaces já entregues — úteis para novos produtos, evolução de sistemas existentes, automação e iniciativas com IA.",
     "badges": {
       "product": "Produto",
       "demo": "Demo",
@@ -31,23 +31,28 @@
     "card": {
       "open": "Ver detalhes",
       "close": "Fechar",
-      "hint": "Clique para ver telas e detalhes."
+      "preview": "Preview real da interface"
+    },
+    "labels": {
+      "solve": "Resolve",
+      "value": "Por que é bom"
     },
     "showcaseCta": "Quero um orçamento",
-    "showcaseSecondaryCta": "Voltar aos cards",
+    "showcaseSecondaryCta": "Fechar",
     "garageSEC": {
       "name": "GarageSEC",
-      "description": "Monitoramento e alertas para controle operacional em garagens/estacionamentos: eventos, ocorrências e visão do que está acontecendo.",
       "tags": "Monitoramento · Alertas · Operação",
+      "summary": {
+        "what": "Plataforma para monitoramento operacional com alertas e visão rápida do que está acontecendo.",
+        "solve": "Ajuda equipes a acompanhar eventos, reduzir ponto cego e agir antes que problemas viirem custo.",
+        "value": "Bom para operações que precisam de visibilidade contínua, histórico e reação rápida."
+      },
       "showcase": {
         "title": "Monitoramento e alertas",
-        "subtitle": "Painel de câmera com insights e alertas operacionais para apoiar decisões e reduzir risco.",
-        "bullets": {
-          "0": "Tela de monitoramento com status e contexto por câmera",
-          "1": "Insights e eventos para auditoria/histórico",
-          "2": "Alertas operacionais com atualização automática"
-        },
-        "disclaimer": "Tela demonstrativa. Em ambiente real, o stream e eventos variam conforme configuração e infraestrutura.",
+        "what": "Painel para acompanhar câmeras, eventos e sinais operacionais em um só lugar.",
+        "solve": "Centraliza o que está acontecendo e acelera resposta a ocorrências e desvios.",
+        "value": "Combina visibilidade, contexto e histórico sem exigir leitura técnica.",
+        "note": "Tela de demonstração. Em ambiente real, streams e eventos variam conforme infraestrutura e regras.",
         "tabs": {
           "monitor": "Monitoramento"
         },
@@ -56,42 +61,20 @@
         }
       }
     },
-    "reluvi": {
-      "name": "Reluvi (Mobile)",
-      "description": "Experiência mobile-first para comunidades: feed de momentos e perfil — com estrutura social pronta para evolução por módulos.",
-      "tags": "Comunidade · Gamificação · Mobile",
-      "showcase": {
-        "title": "Mobile social: feed e perfil",
-        "subtitle": "Interface focada em descoberta, engajamento e identidade — pronta para comunidades, salas e mensagens.",
-        "bullets": {
-          "0": "Feed de momentos com conteúdo e ações rápidas",
-          "1": "Perfil do usuário com identidade e evolução",
-          "2": "Base pronta para comunidades (salas/tribos) e mensagens"
-        },
-        "disclaimer": "Imagens do app em ambiente de demonstração, com dados gerados (seed) para preservar privacidade.",
-        "tabs": {
-          "momentos": "Momentos",
-          "eu": "Eu"
-        },
-        "alts": {
-          "momentos": "Tela do Reluvi mostrando o feed de Momentos",
-          "eu": "Tela do Reluvi mostrando o perfil do usuário"
-        }
-      }
-    },
     "toka": {
       "name": "ERP Veterinário (case real · NDA)",
-      "description": "Agenda, prontuário, exames e financeiro — feito para a rotina da clínica. Telas com dados fictícios/anônimos para demonstração.",
       "tags": "Agenda · Prontuário · Exames",
+      "summary": {
+        "what": "ERP para clínica veterinária com agenda, prontuário, exames e atendimento ao tutor.",
+        "solve": "Organiza a rotina da clínica e reduz atrito entre recepção, veterinário e cliente.",
+        "value": "Bom para operação diária, histórico centralizado e evolução modular do produto."
+      },
       "showcase": {
         "title": "ERP Veterinário (demo)",
-        "subtitle": "Do balcão ao tutor: agenda da clínica e portal do cliente para acompanhar consultas e exames.",
-        "bullets": {
-          "0": "Agenda estilo calendário (recepção e veterinário)",
-          "1": "Área do tutor (consultas, exames e histórico)",
-          "2": "Dados fictícios para demonstração (sem marca de cliente)"
-        },
-        "disclaimer": "Telas e dados usados apenas para demonstração.",
+        "what": "Fluxo que cobre agenda interna e experiência do tutor em uma interface prática.",
+        "solve": "Melhora a organização da clínica e dá mais clareza para consultas, exames e acompanhamento.",
+        "value": "Une operação e atendimento em um produto que pode crescer por módulos.",
+        "note": "Telas e dados usados apenas para demonstração.",
         "tabs": {
           "recepcao": "Recepção — Agenda",
           "tutor": "Tutor — Dashboard"
@@ -104,17 +87,18 @@
     },
     "capibara": {
       "name": "CapibaraLinks",
-      "description": "Link na bio com páginas prontas, métricas simples e recursos para conectar com seu funil (Instagram, WhatsApp, etc.).",
       "tags": "Link na bio · Métricas · Automação",
+      "summary": {
+        "what": "Link na bio com páginas prontas, gestão simples e recursos para conversão.",
+        "solve": "Facilita concentrar links, campanhas e pontos de contato sem depender de páginas improvisadas.",
+        "value": "Bom para quem precisa publicar rápido, medir o básico e evoluir depois com mais recursos."
+      },
       "showcase": {
         "title": "CapibaraLinks (demo)",
-        "subtitle": "Página de links com visual caprichado e fluxo simples de criação — com métricas para acompanhar cliques e visitas.",
-        "bullets": {
-          "0": "Hero e estrutura de landing para conversão",
-          "1": "Planos/precificação e proposta de valor",
-          "2": "Criação de links com preview e ação de copiar"
-        },
-        "disclaimer": "Imagens do produto em ambiente de demonstração.",
+        "what": "Produto focado em página pública, criação de links e estrutura comercial simples.",
+        "solve": "Ajuda a organizar presença digital, direcionar tráfego e acompanhar cliques sem fricção.",
+        "value": "Entrega velocidade de publicação com base pronta para novas features, automação e analytics.",
+        "note": "Imagens do produto em ambiente de demonstração.",
         "tabs": {
           "hero": "Hero",
           "preco": "Planos",
@@ -124,6 +108,30 @@
           "hero": "Hero do CapibaraLinks",
           "preco": "Seção de planos do CapibaraLinks",
           "links": "Tela de criação de links do CapibaraLinks"
+        }
+      }
+    },
+    "reluvi": {
+      "name": "Reluvi (Mobile)",
+      "tags": "Comunidade · Gamificação · Mobile",
+      "summary": {
+        "what": "App mobile social para comunidades, identidade do usuário e evolução por módulos.",
+        "solve": "Cria base para engajamento, perfis, conteúdo e futuras camadas de comunidade ou mensagens.",
+        "value": "Bom para produtos que precisam nascer enxutos, mas já com espaço para crescer."
+      },
+      "showcase": {
+        "title": "Mobile social: feed e perfil",
+        "what": "Interface mobile pensada para descoberta, perfil e interação contínua.",
+        "solve": "Dá forma a experiências sociais com navegação clara e estrutura reutilizável.",
+        "value": "Mostra capacidade de produto mobile, design de fluxo e expansão modular.",
+        "note": "Imagens do app em ambiente de demonstração, com dados gerados para preservar privacidade.",
+        "tabs": {
+          "momentos": "Momentos",
+          "eu": "Eu"
+        },
+        "alts": {
+          "momentos": "Tela do Reluvi mostrando o feed de Momentos",
+          "eu": "Tela do Reluvi mostrando o perfil do usuário"
         }
       }
     }
